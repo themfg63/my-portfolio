@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import HomePage from './Components/HomePage';
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
 
 function App() {
   return (
-    <h1 className='text-red-500'>Hello world</h1>
+    <MantineProvider>
+      <HomePage />
+    </MantineProvider>
   );
 }
 
