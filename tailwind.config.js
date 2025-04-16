@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        bgColor: "#0A192F",
+        primaryColor: "#64FFDA",
+        textColor: "#8892B0"
+      },
+    },
     screens:{
       'xs':'476px',
       'sm':'640px',
@@ -20,11 +26,7 @@ module.exports = {
       'sm-mx':{'max':'639px'},
       'xs-mx':{'max':'475px'}
     },
-    colors:{
-      bgColor: "#0A192F",
-      primaryColor: "#64FFDA",
-      textColor: "#8892B0"
-    },
+   
   },
   plugins: [],
 }
