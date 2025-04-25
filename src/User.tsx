@@ -1,3 +1,5 @@
+
+
 const Info = {
     name:"Muhammed Furkan GÜNEŞ",
     stack:["Bilgisayar Mühendisi","Backend Developer"],
@@ -43,4 +45,84 @@ const ProjectInfo=[
     }
 ]
 
-export {Info,ProjectInfo}
+const SkillInfo = [
+    {
+        title: "Frontend",
+        skills: ["HTML","CSS","JavaScript","TypeScript","React JS","Tailwind CSS","Material UI","Bootstrap"]
+    },
+    {
+        title: "Backend",
+        skills: ["Spring Boot",".Net Core MVC"]
+    },
+    {
+        title: "Database",
+        skills: ["MySQL","PostgreSQL","MSSQL","H2 Database","MongoDB"]
+    },
+    {
+        title: "Diller",
+        skills: ["Java","C#","JavaScript","TypeScript"]
+    },
+    {
+        title: "Araçlar",
+        skills: ["Intellij Idea","Eclipse","Visual Studio Code","Visual Studio 2019","Visual Studio 2022","Postman","Swagger","Docker","MySQL Workspace","DBeaver","Git","Github"]
+    },
+    {
+        title: "Sertifikalar",
+        skills: ["Tübitak Bilgem YTE Bootcamp 2023 - Java Eğitimi","Tübitak Bilgem YTE Bootcamp 2023 - Spring Boot Eğitimi", "Tübitak Bilgem YTE Bootcamp 2023 - Mikroservis Mimarileri Eğitimi","Turkcell Geleceği Yazanlar - Java 101, 102, 103","Turkcell Geleceği Yazanlar - .Net Core MVC 101,102,103","Patika - Java 101,102","BTK Akademi - Java", "BTK Akademi - İleri Seviye Java", "BTK Akademi - B1 Seviye İngilizce", "English Time - B1 Certificate"]
+    }
+]
+
+const Certificates = [
+    {
+        title:"Java Eğitimi",
+        company: "Tübitak Bilgem YTE Bootcamp 2023",
+        date: "Eylül 2023"
+    },
+    {
+        title: "Spring Boot Eğitimi",
+        company: "Tübitak Bilgem YTE Bootcamp 2023",
+        date: "Eylül 2023"
+    },
+    {
+        title: "Mikroservis Mimarileri Eğitimi",
+        company: "Tübitak Bilgem YTE Bootcamp 2023",
+        date: "Eylül 2023",
+    },
+    {
+        title: "İleri Java 101",
+        company: "Turkcell Geleceği Yazanlar",
+        date: "Mayıs 2024"
+    },
+    {
+        title: "Asp.Net Core MVC 101",
+        company: "Turkcell Geleceği Yazanlar",
+        date: "Haziran 2024"
+    },
+    {
+        title: "Asp.Net Core MVC 201",
+        company: "Turkcell Geleceği Yazanlar",
+        date: "Temmuz 2024"
+    },
+    {
+        title: "Asp.Net Core MVC 301",
+        company: "Turkcell Geleceği Yazanlar",
+        date: "Temmuz 2024"
+    },
+    {
+        title: "Java İle Programlamaya Giriş",
+        company: "BTK Akademi",
+        date: "Şubat 2024"
+    },
+    {
+        title:"İleri Seviye Java",
+        company: "BTK Akademi",
+        date: "Şubat 2024"
+    },
+    {
+        title: "English Courses Pre-Intermediate (B1)",
+        company: "English Time",
+        date: "Eylül 2024"
+    }
+]
+
+export {Info,ProjectInfo,SkillInfo,Certificates}

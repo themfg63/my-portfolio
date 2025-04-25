@@ -1,8 +1,10 @@
 
 import About from "./About";
+import Certificates from "./Certificates";
 import Header from "./Header"
 import Mail from "./Mail"
 import Projects from "./Projects";
+import Skills from "./Skills";
 import Social from "./Social";
 
 const HomePage = () => {
@@ -10,6 +12,8 @@ const HomePage = () => {
         <Header />
         <About />
         <Projects />
+        <Skills />
+        <Certificates />
         <Mail />
         <Social />
     </>
