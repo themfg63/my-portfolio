@@ -1,6 +1,7 @@
 
 import About from "./About";
 import Certificates from "./Certificates";
+import Experience from "./Experience";
 import Header from "./Header"
 import Mail from "./Mail"
 import Projects from "./Projects";
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Projects />
         <Skills />
         <Certificates />
+        <Experience />
         <Mail />
         <Social />
     </>

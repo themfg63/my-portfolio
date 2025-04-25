@@ -65,64 +65,84 @@ const SkillInfo = [
     {
         title: "Araçlar",
         skills: ["Intellij Idea","Eclipse","Visual Studio Code","Visual Studio 2019","Visual Studio 2022","Postman","Swagger","Docker","MySQL Workspace","DBeaver","Git","Github"]
-    },
-    {
-        title: "Sertifikalar",
-        skills: ["Tübitak Bilgem YTE Bootcamp 2023 - Java Eğitimi","Tübitak Bilgem YTE Bootcamp 2023 - Spring Boot Eğitimi", "Tübitak Bilgem YTE Bootcamp 2023 - Mikroservis Mimarileri Eğitimi","Turkcell Geleceği Yazanlar - Java 101, 102, 103","Turkcell Geleceği Yazanlar - .Net Core MVC 101,102,103","Patika - Java 101,102","BTK Akademi - Java", "BTK Akademi - İleri Seviye Java", "BTK Akademi - B1 Seviye İngilizce", "English Time - B1 Certificate"]
     }
 ]
 
-const Certificates = [
+const CertificatesInfo = [
+    {
+        title: "English Courses Pre-Intermediate (B1)",
+        company: "English Time",
+        image:"englisTime.png"
+    },
     {
         title:"Java Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        date: "Eylül 2023"
+        image: "tübitakJava.png"
     },
     {
         title: "Spring Boot Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        date: "Eylül 2023"
+        image:"tübitakSpring.png"
     },
     {
         title: "Mikroservis Mimarileri Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        date: "Eylül 2023",
+        image:"tübitakMikroservis.png"
     },
     {
         title: "İleri Java 101",
         company: "Turkcell Geleceği Yazanlar",
-        date: "Mayıs 2024"
+        image: "turkcellİleriJava.png"
     },
     {
         title: "Asp.Net Core MVC 101",
         company: "Turkcell Geleceği Yazanlar",
-        date: "Haziran 2024"
+        image:"turkcellNetCore101.png"
     },
     {
         title: "Asp.Net Core MVC 201",
         company: "Turkcell Geleceği Yazanlar",
-        date: "Temmuz 2024"
+        image:"turkcellNetCore201.png"
     },
     {
         title: "Asp.Net Core MVC 301",
         company: "Turkcell Geleceği Yazanlar",
-        date: "Temmuz 2024"
+        image:"turkcellNetCore301.png"
     },
     {
         title: "Java İle Programlamaya Giriş",
         company: "BTK Akademi",
-        date: "Şubat 2024"
+        image:"btkJava.png"
     },
     {
         title:"İleri Seviye Java",
         company: "BTK Akademi",
-        date: "Şubat 2024"
-    },
-    {
-        title: "English Courses Pre-Intermediate (B1)",
-        company: "English Time",
-        date: "Eylül 2024"
+        image:"btkİleriJava.png"
     }
 ]
 
-export {Info,ProjectInfo,SkillInfo,Certificates}
+const ExperienceInfo = [
+    {
+        role: "Akademi Öğrencisi",
+        company: "Enoca Yazılım",
+        date: "Ocak 2025 - Halen",
+        desc: "Enoca Yazılım firmasının Akademisinde Hybris, Mikroservis ve Java Spring Boot eğitimi almaktayım.",
+        skills:["Spring Boot","Docker","MSSQL","Hybris","Angular"]
+    },
+    {
+        role: "Stajyer",
+        company: "Türkiye Elektrik Dağıtım A.Ş.",
+        date: "Şubat 2024 - Mayıs 2024",
+        desc: "Uzun Dönem stajımı TEDAŞ Genel Müdürlüğü Yazılım Geliştirme Ekibinde yaptım. Stajımda Java Spring Boot ve React kullanarak kendimi full stack şekilde geliştirme fırsatı buldum. Yazmış olduğum karışık SQL sorguları sayesinde ise veritabanı bağlantıları ve işlemleri tarafında da kendimi geliştirmiş oldum.",
+        skills:["Spring Boot","React","Oracle","PostgreSQL"]
+    },
+    {
+        role: "Stajyer",
+        company: "Eysel Bilişim",
+        date: "Temmuz 2023 - Ağustos 2023",
+        desc: "Yaz dönemi stajımı Şanlıurfa'da Eysel Bilişim'de yaptım. Stajımı Java ile backend teknolojileri üzerine yaptım.",
+        skills:["Spring Boot","React","MySQL"]
+    }
+]
+
+export {Info,ProjectInfo,SkillInfo,CertificatesInfo,ExperienceInfo}
