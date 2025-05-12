@@ -3,8 +3,10 @@ import './App.css';
 import HomePage from './Components/HomePage';
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
-import 'aos/dist/aos.css';
 import { pdfjs } from 'react-pdf';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -13,6 +15,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 
 function App(){
+  useEffect(() => {
+    AOS.init();
+  },[])
   return (
     <MantineProvider >
       <HomePage />

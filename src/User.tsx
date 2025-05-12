@@ -145,4 +145,44 @@ const ExperienceInfo = [
     }
 ]
 
-export {Info,ProjectInfo,SkillInfo,CertificatesInfo,ExperienceInfo}
+const Slugs = [
+    "springboot",
+    "typescript",
+    "spring",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "angular",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    
+    "mongodb",
+    "selenium",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "mysql",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+];
+
+export {Info,ProjectInfo,SkillInfo,CertificatesInfo,ExperienceInfo,Slugs}

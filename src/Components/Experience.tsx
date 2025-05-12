@@ -3,7 +3,7 @@ import { IconBriefcaseFilled } from "@tabler/icons-react"
 import { ExperienceInfo } from "../User"
 
 const TimelineItem = (items:any) => {
-    return items.map((item:any,index:number) => <Timeline.Item key={index} className="!pt-12 !mb-2" bullet={<IconBriefcaseFilled className="!text-bgColor" size={20}/>}>
+    return items.map((item:any,index:number) => <Timeline.Item data-aos="fade-up" data-aos-duration="800" key={index} className="!pt-12 !mb-2" bullet={<IconBriefcaseFilled className="!text-bgColor" size={20}/>}>
         <div className="border flex flex-col gap-2 border-primaryColor p-4 rounded-2xl">
             <div className="flex gap-2 items-center">
                 <img className="rounded-lg w-16" src={`/${item.company}.jpeg`} alt="Company" />

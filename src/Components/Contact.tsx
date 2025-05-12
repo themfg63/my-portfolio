@@ -22,7 +22,7 @@ const Contact = () => {
             <span className="text-primaryColor">06.&nbsp;</span>
             İletişim
         </h1>
-        <div className="w-[70%] shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl">
+        <div data-aos="flip-left" data-aos-duration="800" className="w-[70%] shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl">
             <div className="text-3xl text-white font-semibold">Benimle İletişime Geçin</div>
             <FloatingInput
                 id="name"
