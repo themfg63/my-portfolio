@@ -73,52 +73,52 @@ const CertificatesInfo = [
     {
         title: "English Courses Pre-Intermediate (B1)",
         company: "English Time",
-        image:"englisTime.png"
+        image:"englisTime.PNG"
     },
     {
         title:"Java Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        image: "tübitakJava.png"
+        image: "tübitakJava.PNG"
     },
     {
         title: "Spring Boot Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        image:"tübitakSpring.png"
+        image:"tübitakSpring.PNG"
     },
     {
         title: "Mikroservis Mimarileri Eğitimi",
         company: "Tübitak Bilgem YTE Bootcamp 2023",
-        image:"tübitakMikroservis.png"
+        image:"tübitakMikroservis.PNG"
     },
     {
         title: "İleri Java 101",
         company: "Turkcell Geleceği Yazanlar",
-        image: "turkcellİleriJava.png"
+        image: "turkcellİleriJava.PNG"
     },
     {
         title: "Asp.Net Core MVC 101",
         company: "Turkcell Geleceği Yazanlar",
-        image:"turkcellNetCore101.png"
+        image:"turkcellNetCore101.PNG"
     },
     {
         title: "Asp.Net Core MVC 201",
         company: "Turkcell Geleceği Yazanlar",
-        image:"turkcellNetCore201.png"
+        image:"turkcellNetCore201.PNG"
     },
     {
         title: "Asp.Net Core MVC 301",
         company: "Turkcell Geleceği Yazanlar",
-        image:"turkcellNetCore301.png"
+        image:"turkcellNetCore301.PNG"
     },
     {
         title: "Java İle Programlamaya Giriş",
         company: "BTK Akademi",
-        image:"btkJava.png"
+        image:"btkJava.PNG"
     },
     {
         title:"İleri Seviye Java",
         company: "BTK Akademi",
-        image:"btkİleriJava.png"
+        image:"btkİleriJava.PNG"
     }
 ]
 
