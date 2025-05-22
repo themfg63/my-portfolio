@@ -1,3 +1,4 @@
+import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconBrandX } from "@tabler/icons-react"
 
 
 const Info = {
@@ -123,6 +124,13 @@ const CertificatesInfo = [
 
 const ExperienceInfo = [
     {
+        role: "Freelancer",
+        company: "Freelance",
+        date: "Mayıs 2024 - Halen",
+        desc: "Freelancer olarak C#, C# Form ve Spring Boot projelerini full stack şekilde geliştiriyorum.",
+        skills:["C#","C# Form","Java Spring Boot","MySQL","MSSQL"]
+    },
+    {
         role: "Akademi Öğrencisi",
         company: "Enoca Yazılım",
         date: "Ocak 2025 - Halen",
@@ -158,7 +166,6 @@ const Slugs = [
     "android",
     "html5",
     "css3",
-    
     "mongodb",
     "selenium",
     "nodedotjs",
@@ -185,4 +192,16 @@ const Slugs = [
     "figma",
 ];
 
-export {Info,ProjectInfo,SkillInfo,CertificatesInfo,ExperienceInfo,Slugs}
+const socialLinks = [
+    {
+        link: "https://github.com/themfg63", icon: IconBrandGithub
+    },{
+        link: "https://www.linkedin.com/in/muhammedfurkangunes/", icon: IconBrandLinkedin
+    },{
+        link: "https://www.instagram.com/mefege_", icon: IconBrandInstagram
+    },{
+        link: "https://x.com/mefege_", icon: IconBrandX
+    },
+]
+
+export {Info,ProjectInfo,SkillInfo,CertificatesInfo,ExperienceInfo,Slugs,socialLinks}
