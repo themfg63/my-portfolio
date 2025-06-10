@@ -124,6 +124,13 @@ const CertificatesInfo = [
 
 const ExperienceInfo = [
     {
+        role:"Yazılım Geliştirici",
+        company:"IVOSIS GROUP",
+        date:"Haziran 2025- Halen",
+        desc:"IVOSIS GROUP Bünyesinde Yazılım Geliştirici olarak görev yapmaktayım.",
+        skills:["C#",".Net Core","Devexpress","MSSQL","React"]
+    },
+    {
         role: "Freelancer",
         company: "Freelance",
         date: "Mayıs 2024 - Halen",
